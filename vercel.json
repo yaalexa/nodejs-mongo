@@ -8,13 +8,9 @@
   ],
    "routes": [
     {
-      "src": "/api/libros/:id",  
+      "src": "/api/libros/.*",  
       "dest": "index.js" 
-    },
-    {
-      "src": "/api/libros",  
-      "dest": "index.js" 
-    } 
+    }
   ],
   "env": {
     "MONGODB_URI": "mongodb+srv://yaalexa25:nma02120@cluster0.48osn5a.mongodb.net/dblibro" 
