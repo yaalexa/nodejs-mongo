@@ -8,7 +8,7 @@
   ],
    "routes": [
     {
-      "src": "/api/libros/.*",  
+      "src": "/api/.*",  
       "dest": "index.js" 
     }
   ],
